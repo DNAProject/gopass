@@ -1,6 +1,6 @@
 package gopass
 
-import "github.com/crypto/ssh/terminal"
+import "github.com/golang/crypto/ssh/terminal"
 
 type terminalState struct {
 	state *terminal.State
